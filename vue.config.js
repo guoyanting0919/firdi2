@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/firdi/dist/'
+  publicPath: '/firdi2/dist/'
 }
