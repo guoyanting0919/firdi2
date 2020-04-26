@@ -1,0 +1,31 @@
+.routerTitle {
+  width: 100%;
+  // box-shadow: 0px 1px 9px rgba(178, 178, 178, 0.5);
+  position: relative;
+
+  .titleContainer {
+    width: 80%;
+    padding: 3rem 0;
+    font-family: $chineseFont;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    h2 {
+      margin: 0;
+      font-size: 2rem;
+      color: #4d4d4d;
+    }
+
+    .routerBreads span {
+      color: #4d4d4d;
+      font-size: 0.875rem;
+      letter-spacing: 3px;
+    }
+  }
+
+  .homeLink {
+    color: #4d4d4d;
+  }
+}

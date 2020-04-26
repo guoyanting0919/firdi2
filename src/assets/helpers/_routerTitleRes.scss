@@ -1,0 +1,47 @@
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: $ExtraLargeDevices) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: $LargeDevices) {
+  .routerTitle .titleContainer h2 {
+    font-size: 1.7rem;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: $MediumDevices) {
+  .routerTitle .titleContainer {
+    flex-direction: column;
+  }
+
+  .routerTitle .titleContainer .routerBreads {
+    margin-top: 1rem;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: $SmallDevices) {
+  .routerTitle .titleContainer h2 {
+    font-size: 1.2rem;
+  }
+
+  .routerTitle .titleContainer {
+    width: 90%;
+  }
+
+  .routerTitle .titleContainer span {
+    font-size: 0.5rem;
+  }
+  .routerTitle .titleContainer {
+    padding: 1.5rem 0;
+  }
+
+  .routerTitle .titleContainer .routerBreads {
+    margin-top: 0.5rem;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: $ExtraSmallDevices) {
+}
